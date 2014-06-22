@@ -32,7 +32,7 @@ When using browser globals:
 
 ```js
 bespoke.from('#presentation', [
-  bespoke.plugins['theme-cube']()
+  bespoke.themes.cube()
 ]);
 ```
 

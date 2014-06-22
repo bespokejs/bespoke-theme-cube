@@ -38,7 +38,7 @@ gulp.task('compile:css', ['clean'], function() {
 gulp.task('compile:js', ['clean', 'compile:css'], function() {
   return browserify('./lib/bespoke-theme-cube.js')
     .transform('brfs')
-    .bundle({ standalone: 'bespoke.plugins.theme-cube' })
+    .bundle({ standalone: 'bespoke.themes.cube' })
     .pipe(source('bespoke-theme-cube.js'))
     .pipe(buffer())
     .pipe(header(template([
