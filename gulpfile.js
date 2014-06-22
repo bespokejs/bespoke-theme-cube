@@ -4,7 +4,7 @@ var gulp = require('gulp'),
   rename = require('gulp-rename'),
   uglify = require('gulp-uglify'),
   stylus = require('gulp-stylus'),
-  nib = require('nib'),
+  autoprefixer = require('gulp-autoprefixer'),
   minifyCss = require('gulp-minify-css'),
   pkg = require('./package.json'),
   browserify = require('browserify'),
@@ -29,7 +29,8 @@ gulp.task('compile', ['compile:css', 'compile:js']);
 
 gulp.task('compile:css', ['clean'], function() {
   return gulp.src('lib/theme.styl')
-    .pipe(stylus({use: [nib()]}))
+    .pipe(stylus())
+    .pipe(autoprefixer('last 2 versions'))
     .pipe(minifyCss())
     .pipe(gulp.dest('lib/tmp'));
 });
