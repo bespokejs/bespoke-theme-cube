@@ -1,0 +1,56 @@
+{
+  "name": "bespoke-theme-cube",
+  "version": "0.0.0",
+  "description": "Cube theme for Bespoke.js",
+  "homepage": "https://github.com/markdalgleish/bespoke-theme-cube",
+  "bugs": "https://github.com/markdalgleish/bespoke-theme-cube/issues",
+  "author": {
+    "name": "Mark Dalgleish",
+    "url": "https://github.com/markdalgleish"
+  },
+  "main": "./dist/bespoke-theme-cube.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markdalgleish/bespoke-theme-cube.git"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "peerDependencies": {
+    "bespoke": "^1.0.0"
+  },
+  "devDependencies": {
+    "bespoke": "^1.0.0",
+    "bespoke-classes": "^1.0.0-beta",
+    "bespoke-keys": "^1.0.0",
+    "bespoke-touch": "^1.0.0",
+    "brfs": "^1.1.1",
+    "browserify": "^4.1.5",
+    "function-bind": "^0.1.0",
+    "gulp": "^3.5.1",
+    "gulp-clean": "^0.2.4",
+    "gulp-header": "^1.0.2",
+    "gulp-minify-css": "^0.3.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-stylus": "^1.0.2",
+    "gulp-uglify": "^0.3.0",
+    "insert-css": "^0.2.0",
+    "lodash": "^2.4.1",
+    "nib": "^1.0.3",
+    "vinyl-buffer": "0.0.0",
+    "vinyl-source-stream": "^0.1.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mit-license.org/markdalgleish"
+    }
+  ],
+  "keywords": [
+    "bespoke-plugin",
+    "bespoke-theme"
+  ]
+}
