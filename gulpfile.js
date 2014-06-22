@@ -15,6 +15,7 @@ var gulp = require('gulp'),
 
 gulp.task('default', ['compile']);
 gulp.task('dev', ['compile', 'watch']);
+gulp.task('compile', ['stylus', 'browserify']);
 
 gulp.task('watch', function() {
   gulp.watch('lib/**/*', ['compile']);
@@ -25,9 +26,7 @@ gulp.task('clean', function() {
     .pipe(clean());
 });
 
-gulp.task('compile', ['compile:css', 'compile:js']);
-
-gulp.task('compile:css', ['clean'], function() {
+gulp.task('stylus', ['clean'], function() {
   return gulp.src('lib/theme.styl')
     .pipe(stylus())
     .pipe(autoprefixer('last 2 versions'))
@@ -35,7 +34,7 @@ gulp.task('compile:css', ['clean'], function() {
     .pipe(gulp.dest('lib/tmp'));
 });
 
-gulp.task('compile:js', ['clean', 'compile:css'], function() {
+gulp.task('browserify', ['clean', 'stylus'], function() {
   return browserify('./lib/bespoke-theme-cube.js')
     .transform('brfs')
     .bundle({ standalone: 'bespoke.themes.cube' })
