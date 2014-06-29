@@ -37,7 +37,7 @@ gulp.task('clean', function() {
 gulp.task('stylus', function() {
   return gulp.src('lib/theme.styl')
     .pipe(isDemo ? plumber() : through())
-    .pipe(stylus())
+    .pipe(stylus({ pretty: true }))
     .pipe(autoprefixer('last 2 versions'))
     .pipe(minifyCss())
     .pipe(gulp.dest('lib/tmp'));
