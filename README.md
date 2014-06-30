@@ -38,7 +38,7 @@ bespoke.from('#presentation', [
 
 ## Credits
 
-This theme was built with [generator-bespokeplugin](https://github.com/markdalgleish/generator-bespokeplugin).
+This theme was built with [generator-bespoketheme](https://github.com/markdalgleish/generator-bespoketheme).
 
 ## License
 
