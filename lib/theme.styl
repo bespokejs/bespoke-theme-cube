@@ -29,21 +29,18 @@ bullet_transition_translate_x = 16px
 
 // bespoke.js layout styles
 
-article
+.bespoke-parent
   transition: background slide_transition_length slide_transition_easing
-  display: none
-  &.bespoke-parent
-    display: block
-    position: absolute
-    top: 0
-    bottom: 0
-    left: 0
-    right: 0
-    overflow: hidden
-    @media print
-      overflow: visible
-      position: static
-    perspective: 600px
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  overflow: hidden
+  @media print
+    overflow: visible
+    position: static
+  perspective: 600px
 
 .bespoke-slide
   transition:
