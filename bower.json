@@ -6,6 +6,6 @@
     "**/.*"
   ],
   "dependencies": {
-    "bespoke.js": "^1.0.0"
+    "bespoke.js": ">=1.0.0-beta"
   }
 }
