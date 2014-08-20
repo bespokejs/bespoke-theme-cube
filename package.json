@@ -1,6 +1,6 @@
 {
   "name": "bespoke-theme-cube",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0",
   "description": "Cube theme for Bespoke.js",
   "homepage": "https://github.com/markdalgleish/bespoke-theme-cube",
   "bugs": "https://github.com/markdalgleish/bespoke-theme-cube/issues",
@@ -17,7 +17,7 @@
     "test": "gulp"
   },
   "peerDependencies": {
-    "bespoke": ">=1.0.0-beta"
+    "bespoke": ">=1.0.0"
   },
   "devDependencies": {
     "bespoke": "^1.0.0",

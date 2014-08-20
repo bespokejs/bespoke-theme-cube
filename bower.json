@@ -1,11 +1,11 @@
 {
   "name": "bespoke-theme-cube",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "main": "./dist/bespoke-theme-cube.js",
   "ignore": [
     "**/.*"
   ],
   "dependencies": {
-    "bespoke.js": ">=1.0.0-beta"
+    "bespoke.js": ">=1.0.0"
   }
 }
