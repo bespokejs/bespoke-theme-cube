@@ -146,11 +146,23 @@ bullet_transition_translate_x = 16px
   background: #0089f3
   border-radius: 0 4px 4px 0
 
-// bespoke-state styles
+// bespoke-backdrop styles
 
-.emphatic,
-.emphatic .bespoke-slide
+.emphatic
   background: slide_background
+
+.bespoke-backdrop
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  transform: translateZ(0)
+  transition: opacity slide_transition_length slide_transition_easing
+  opacity: 0
+  z-index: -1
+  &-active
+    opacity: 1
 
 // prism styles
 
