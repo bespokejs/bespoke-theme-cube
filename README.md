@@ -4,8 +4,6 @@
 
 Cube theme for [Bespoke.js](http://markdalgleish.com/projects/bespoke.js) &mdash; [View demo](http://markdalgleish.github.io/bespoke-theme-cube/)
 
-> **Please note:** This theme is in beta and designed for use with a future release of Bespoke.js
-
 ## Download
 
 Download the [production version][min] or the [development version][max].
