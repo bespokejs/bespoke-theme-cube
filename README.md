@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/markdalgleish/bespoke-theme-cube.png?branch=master)](https://travis-ci.org/markdalgleish/bespoke-theme-cube)
+[![Build Status](http://img.shields.io/travis/markdalgleish/bespoke-theme-cube/master.svg?style=flat)](https://travis-ci.org/markdalgleish/bespoke-theme-cube)
 
 # bespoke-theme-cube
 
